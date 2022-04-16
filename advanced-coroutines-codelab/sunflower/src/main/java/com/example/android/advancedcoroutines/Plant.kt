@@ -33,5 +33,6 @@ data class Plant(
 }
 
 
-inline class GrowZone(val number: Int)
+@JvmInline
+value class GrowZone(val number: Int)
 val NoGrowZone = GrowZone(-1)
